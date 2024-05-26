@@ -1,0 +1,138 @@
+/* Universal */
+
+* {
+  /* border: 1px solid white; */
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 0;
+}
+
+/* Header section */
+
+header {
+  top: 0;
+  height: 4rem;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid white;
+}
+
+header nav {
+  text-align: right;
+  flex-grow: 1;
+  margin: auto;
+  font-size: 25px;
+}
+
+header nav a {
+  text-decoration: underline;
+}
+
+header nav a:hover {
+  color: grey;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header img {
+  margin-left: 10px;
+}
+
+/* Banner Section */
+
+#banner {
+  width: 90%;
+  height: 800px;
+  background-image: url('https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  display: flex;
+  margin: 4rem auto auto;
+}
+
+#banner #slogan {
+  border: 1px solid white;
+  font-size: 25px;
+  margin: auto 0;
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* Tea of the month Section */
+
+#tea-of-the-month {
+  display: flex;
+  flex-direction: column;
+}
+
+#tea-of-the-month #slogan{
+  margin: 30px;
+  font-size: 25px;
+}
+
+#tea-of-the-month #images{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+}
+
+#tea-of-the-month figure {
+  width: 25%;
+  margin: 20px;
+}
+
+#tea-of-the-month figure img {
+  width: 100%;
+}
+
+/* locations */
+
+#container {
+  height: 500px;
+  width: 90%;
+  background-image: url('https://images.unsplash.com/photo-1505088990917-bf46e474eb93?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 30px auto;
+}
+
+#container h2 {
+  background-color: transparent;
+  width: 100%;
+  height: 30px;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+#container #locations {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  margin-top: 0;
+}
+
+#container #locations .location{
+  width: 250px;
+  height: 250px;
+  line-height: 200%;
+  margin: auto;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+/* footer */
+
+footer {
+  margin: 20px;
+  line-height: 200%;
+}
