@@ -1,0 +1,129 @@
+/* Universal */
+
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    color: seashell;
+    height: 3rem;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header nav span {
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+header nav span:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+/* banner section */
+
+#banner {
+    margin-top: 3rem;
+    height: 800px ;
+    background-image: url('https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=3028&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    display: flex;
+}
+
+#banner #club-name {
+    height: 100px;
+    width: 100%;
+    background-color: seashell;
+    margin: auto;
+    opacity: 80%;
+    display: flex;
+}
+
+#banner #club-name h1 {
+    font-size: 2.5rem;
+    margin: auto;
+}
+
+/* description section */
+
+#description #slogan {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#description #slogan h2{
+    margin: auto;
+    font-size: 2rem;
+}
+
+#description #slogan p{
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+#description #images {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;   
+}
+
+#description #images img {
+    width: 30%;
+}
+
+/* testimonial section */
+
+#testimonial {
+    padding-top: 75px;
+    color: seashell;
+    background-color: black;
+    height: 200px;
+    opacity: 0.7;
+    font-size: 1.5rem;
+}
+
+/* end section */
+
+#end #images {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#end #images img {
+    width: 30%;
+}
+
+#end #call-to-action {
+    margin-bottom: 50px;
+    font-size: 1.75rem;
+}
+
+#end #call-to-action img{
+    width: 50%;
+}
+
+/* footer section */
+
+footer {
+    padding-top: 50px;
+    height: 150px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.7;
+}
